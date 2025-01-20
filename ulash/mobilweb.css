@@ -1,0 +1,17 @@
+@media screen and (max-width: 972px){
+    .bigweb{
+        display: none;
+    }
+    .big{
+        display: block;
+    }
+  }
+  @media screen and (min-width: 972px){
+      .big{
+          display: none;
+      }
+    .bigweb{
+        display: block;
+    }
+  }
+  
