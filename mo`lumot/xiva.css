@@ -1,0 +1,158 @@
+/* Umumiy sozlamalar */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f7fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Orqa fon va konteyner */
+.sambak {
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    padding: 20px;
+}
+
+.div1 {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Sarlavha */
+.samarqand {
+    font-size: 3rem;
+    text-align: center;
+    color: #00796b;
+    margin-bottom: 30px;
+}
+
+/* Matnli blok */
+.h1 {
+    font-size: 1.2rem;
+    padding: 10px;
+    color: #444;
+    text-align: justify;
+}
+
+/* Rasmlar */
+.sam {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Back tugmasi */
+.imgback {
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    transition: transform 0.3s ease;
+}
+.imgback:hover {
+    transform: scale(1.1);
+}
+
+/* Lokatsiya rasmi */
+.lok {
+    width: 80px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+/* Qo‘shimcha matnlar */
+.whitbak {
+    background: #ffffff;
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+/* H2 matn */
+.whitbak h2 {
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Ulashish tugmasi */
+.share-button {
+    text-align: center;
+    margin-top: 30px;
+}
+.share-btn {
+    background-color: #00796b;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.share-btn:hover {
+    background-color: #004d40;
+}
+
+/* Footer */
+footer {
+    background-color: #263238;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+footer h3 {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+footer p, footer a {
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+footer a:hover {
+    color: white;
+}
+
+/* Social icons */
+.div52 img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+/* Responsivlik */
+@media (max-width: 768px) {
+    .samarqand {
+        font-size: 2rem;
+    }
+
+    .sam {
+        width: 100%;
+    }
+
+    .whitbak h2 {
+        font-size: 0.95rem;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .imgback {
+        width: 35px;
+    }
+}

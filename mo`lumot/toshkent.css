@@ -1,0 +1,158 @@
+/* Umumiy sozlamalar */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Sarlavha va asosiy container */
+.sambak {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.samarqand {
+    text-align: center;
+    font-size: 42px;
+    color: #006699;
+    margin: 20px 0;
+}
+
+/* Rasm va matn birga joylashgan div */
+.div2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    align-items: flex-start;
+}
+
+.div2 img.sam {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.div2 .h1 {
+    flex: 2;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* Oq fonli bo‘lim */
+.whitbak {
+    background-color: #fff;
+    padding: 40px 20px;
+}
+
+.whitbak h2 {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* Lokatsiya rasmi */
+.lok {
+    display: block;
+    max-width: 100%;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* Ulashish tugmasi */
+.share-button {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.share-btn {
+    padding: 12px 24px;
+    background-color: #006699;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.share-btn:hover {
+    background-color: #004d80;
+}
+
+/* Footer */
+footer {
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 20px;
+}
+
+footer div {
+    margin: 10px;
+    flex: 1 1 200px;
+}
+
+footer h3 {
+    color: #f9c74f;
+    margin-bottom: 10px;
+}
+
+footer a {
+    display: block;
+    color: #ccc;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: color 0.2s;
+}
+
+footer a:hover {
+    color: white;
+}
+
+footer img {
+    width: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+/* Orqaga tugma */
+.imgback {
+    width: 35px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+}
+
+/* Mobil moslashuv */
+@media (max-width: 768px) {
+    .div2 {
+        flex-direction: column;
+    }
+
+    .samarqand {
+        font-size: 32px;
+    }
+
+    .div2 .h1 {
+        font-size: 16px;
+    }
+
+    .share-btn {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}

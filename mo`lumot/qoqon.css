@@ -1,0 +1,185 @@
+/* Umumiy sozlamalar */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Header va asosiy konteyner */
+.sambak {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.div1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Orqaga tugmasi */
+.bak {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.imgback {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.imgback:hover {
+    transform: scale(1.1);
+}
+
+/* Sarlavha */
+.samarqand {
+    text-align: center;
+    font-size: 48px;
+    color: #1a3c72;
+    margin-top: 40px;
+}
+
+/* Tasvir va matn bloklari */
+.div2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.sam {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.h1 {
+    width: 50%;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Bo'sh qatorlar */
+.p1 {
+    visibility: hidden;
+    margin: 20px 0;
+}
+
+/* Matn bloki */
+.whitbak {
+    background-color: #fff;
+    padding: 40px 60px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.whitbak h2 {
+    font-size: 18px;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+/* Lokatsiya kartasi */
+.lok {
+    display: block;
+    margin: 40px auto;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    border: 2px solid #1a3c72;
+}
+
+/* Ulashish tugmasi */
+.share-button {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.share-btn {
+    padding: 10px 20px;
+    background-color: #1a3c72;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.share-btn:hover {
+    background-color: #30549f;
+}
+
+/* Footer */
+footer {
+    background-color: #1a3c72;
+    color: white;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+footer p,
+footer a {
+    font-size: 14px;
+    color: #ddd;
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: block;
+}
+
+footer a:hover {
+    color: white;
+}
+
+/* Footer ichidagi rasm logolari */
+.div52 img {
+    width: 28px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.div52 img:hover {
+    transform: scale(1.2);
+}
+
+/* Responsive uchun */
+@media (max-width: 768px) {
+    .div2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .sam,
+    .h1 {
+        width: 100%;
+    }
+
+    .h1 {
+        font-size: 18px;
+    }
+
+    .samarqand {
+        font-size: 36px;
+    }
+
+    .whitbak {
+        padding: 20px;
+    }
+}
